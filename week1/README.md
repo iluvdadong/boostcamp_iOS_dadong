@@ -13,9 +13,9 @@
     * 2장 : [Swift 언어](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week1/MyPlayground.playground) (완료)
     * 3장 : [뷰와 뷰 계층구조](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week1/WorldTrotter) (완료)
 * [영상](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week1/LoginProject)으로 주어지는 로그인 화면 구성해보기 (완료)
-    ~~~ * 로고 이미지 뷰~~~ 
-    ~~~ * ID/PW 필드~~~
-    ~~~ * 로그인 버튼을 눌렀을 때 로그가 남도록~~~
+    * ~~~로고 이미지 뷰~~~ 
+    * ~~~ID/PW 필드~~~
+    * ~~~로그인 버튼을 눌렀을 때 로그가 남도록~~~
 
 
 > 읽어오기 과제
