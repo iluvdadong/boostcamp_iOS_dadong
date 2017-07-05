@@ -9,7 +9,7 @@
 > 실습 과제
 
 * 교재 3장까지 문제 해결해보기
-    * 1장 : [간단한 iOS앱 만들기](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week1/Quiz) <span style="color:orange">(완료)</span>
+    * 1장 : [간단한 iOS앱 만들기](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week1/Quiz) (완료)
     * 2장 : [Swift 언어](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week1/MyPlayground.playground) (완료)
     * 3장 : [뷰와 뷰 계층구조](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week1/WorldTrotter) (완료)
 * [영상으로 주어지는 로그인 화면 구성해보기](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week1/LoginProject) (완료)
