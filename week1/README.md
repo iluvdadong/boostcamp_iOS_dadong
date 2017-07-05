@@ -19,7 +19,7 @@
 
 
 > 읽어오기 과제
-* [Start Developing iOS Apps (Swift)](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week1/FoodTracker)의 Connect the UI to Code 파트까지 읽어오기 (완료)
+* [Start Developing iOS Apps (Swift)](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week1/FoodTracker)의~~~Connect the UI to Code 파트까지 읽어오기~~~  (완료)
 * [iOS Human Interface Guidelines](https://developer.apple.com/ios/human-interface-guidelines/) 읽어오기 (진행중)
 * [UIKit User Interface Catalog](https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/UIKitUICatalog/) 읽어오기 (진행중)
 * [스위프트 읽어오기 과제](reading/ios_reading_assignment_swift_1.pdf) - 첫 번째 읽어오기 과제 (진행중)
