@@ -28,6 +28,7 @@
 	* [영상](video/signup_rotate.mov)처럼 기기가 회전해도 화면이 정상 출력되도록 구성
 
 
+
 > 읽어오기 과제
 
 * 애플의 [MVC 문서](https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html) 읽어오기
@@ -42,6 +43,7 @@
 * [스위프트 읽어오기 과제](reading/ios_reading_assignment_swift_2.pdf) - 두 번째 읽어오기 과제
 
 * [iOS 프로그래밍 가이드 읽어오기 과제](reading/ios_reading_assignment_prog_guide_1.pdf) - 첫 번째 읽어오기 과제
+
 
 
 > 생각하기 과제
