@@ -6,7 +6,7 @@
 
 > 실습과제
 
-* [Start Developing iOS Apps (Swift)](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html)의 Define Your Data Model 파트까지 읽어오기 - [x] [완료영상](video/week2_foodtracker.mov)
+* - [x] [Start Developing iOS Apps (Swift)](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html)의 Define Your Data Model 파트까지 읽어오기 [(완료영상)](video/week2_foodtracker.mov)
 
 * 교재 4~6장 문제 해결해보기
 	* 4장 : 텍스트 입력과 델리게이션
