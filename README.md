@@ -8,6 +8,7 @@
 
 > 과제분류
 * [week1](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week1)
+* [week2](week2/README.md)
 
 
 
