@@ -13,15 +13,15 @@
 	* ~~~5장 : 뷰 컨트롤러~~~
 	* ~~~6장 : 프로그래밍으로 뷰 만들기~~~
 
-* - [ ]  교재의 UIGestureRecognizer(18장) 내용 익히기
+* - [x]  ~~~교재의 UIGestureRecognizer(18장) 내용 익히기~~~
 
-* - [ ]  프로젝트 과제
+* - [ ]  프로젝트 과제 (진행중)
 	* [영상](video/signup_view.mov)으로 제시되는 회원가입 화면 구현해보기
 		* 프로필 이미지뷰를 탭하면 UIImagePickerController를 통해 사진 라이브러리의 사진을 선택할 수 있도록 구현
 		* 배경 뷰를 탭하면 키보드가 사라지도록 구현
 		* 사용자가 텍스트필드 키보드에서 return 키를 누르면 키보드가 사라지도록 구현
     
-* - [ ]  도전과제
+* - [ ]  도전과제 (진행중)
 	* [영상](video/signup_modal.mov)처럼 로그인 화면에서 Sign Up 버튼을 눌렀을 때 회원가입 화면이 나오도록 구성
 	* [영상](video/signup_dismiss.mov)처럼 Cancel, Sign Up 버튼을 누르면 Modal이 dismiss 되도록 구현
 	* [영상](video/signup_check_password.mov)처럼 회원가입 화면에서 Sign Up 버튼을 눌렀을 때 비밀번호 텍스트와 확인 텍스트가 같은지 확인하여 일치 하면 dismiss 하고, 일치하지 않으면 로그로 일치하지 않음을 출력하기
@@ -31,9 +31,9 @@
 
 > 읽어오기 과제
 
-* - [ ]  애플의 [MVC 문서](https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html) 읽어오기
+* - [x]  애플의 [MVC 문서](https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html) 읽어오기
 
-* - [ ] [iOS Technology Overview](https://developer.apple.com/library/content/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Introduction/Introduction.html) 문서 훑어보기
+* - [x] [iOS Technology Overview](https://developer.apple.com/library/content/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Introduction/Introduction.html) 문서 훑어보기
 
 * - [ ] [Cocoa Fundamentals Guide 문서](reading/cocoa_fundamentals.pdf)의 아래 챕터 읽어오기
 	* How Cocoa Fits into iOS
