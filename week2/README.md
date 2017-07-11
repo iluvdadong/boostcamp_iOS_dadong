@@ -6,9 +6,9 @@
 
 > 실습과제
 
-* - [x] ~~~[Start Developing iOS Apps (Swift)](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html)의 Define Your Data Model 파트까지 읽어오기 [(완료영상)](video/week2_foodtracker.mov)~~~
+* - [x] ~~~[Start Developing iOS Apps (Swift)](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html)의 Define Your Data Model 파트까지 읽어오기~~~ [(완료영상)](video/week2_foodtracker.mov)
 
-*  - [x] ~~~교재 4~6장 문제 해결해보기 [(완료영상)](video/WorldTrotter_chp6.mov)~~~
+*  - [x] ~~~교재 4~6장 문제 해결해보기~~~ [(완료영상)](video/WorldTrotter_chp6.mov)
 	* ~~~4장 : 텍스트 입력과 델리게이션~~~
 	* ~~~5장 : 뷰 컨트롤러~~~
 	* ~~~6장 : 프로그래밍으로 뷰 만들기~~~
