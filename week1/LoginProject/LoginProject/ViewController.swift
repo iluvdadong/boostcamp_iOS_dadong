@@ -20,14 +20,14 @@ class ViewController: UIViewController {
         initTapGesture()
     }
 
-    private func initTapGesture() {
+    fileprivate func initTapGesture() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
         
         view.addGestureRecognizer(tap)
         
     }
 
-    @IBAction func signinAction(sender: AnyObject) {
+    @IBAction func signinAction(_ sender: AnyObject) {
         print("touch up inside - sign in")
         print("ID : \(idTextField.text!),  PW : \(pwTextField.text!)")
         
@@ -35,13 +35,16 @@ class ViewController: UIViewController {
     }
     
     
-    @IBAction func signupAction(sender: AnyObject) {
-        print("touch up inside - sign up")
+    @IBAction func signupAction(_ sender: AnyObject) {
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "SignUpViewController")
+        self.present(controller, animated: true, completion: nil)
     
-        dismissKeyboard()
+   
     }
     
-    public func dismissKeyboard() {
+    open func dismissKeyboard() {
         view.endEditing(true)
     }
     

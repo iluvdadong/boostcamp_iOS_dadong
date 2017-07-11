@@ -12,6 +12,7 @@
 		531854031F08DEE200012375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531854011F08DEE200012375 /* Main.storyboard */; };
 		531854051F08DEE200012375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531854041F08DEE200012375 /* Assets.xcassets */; };
 		531854081F08DEE300012375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531854061F08DEE300012375 /* LaunchScreen.storyboard */; };
+		D44909141F14FBAB00AE73C8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44909131F14FBAB00AE73C8 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		531854041F08DEE200012375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		531854071F08DEE300012375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		531854091F08DEE300012375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D44909131F14FBAB00AE73C8 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				531853FD1F08DEE200012375 /* AppDelegate.swift */,
 				531853FF1F08DEE200012375 /* ViewController.swift */,
 				531854011F08DEE200012375 /* Main.storyboard */,
+				D44909131F14FBAB00AE73C8 /* SignUpViewController.swift */,
 				531854041F08DEE200012375 /* Assets.xcassets */,
 				531854061F08DEE300012375 /* LaunchScreen.storyboard */,
 				531854091F08DEE300012375 /* Info.plist */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					531853F91F08DEE200012375 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -135,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D44909141F14FBAB00AE73C8 /* SignUpViewController.swift in Sources */,
 				531854001F08DEE200012375 /* ViewController.swift in Sources */,
 				531853FE1F08DEE200012375 /* AppDelegate.swift in Sources */,
 			);
@@ -253,6 +258,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Dadong.LoginProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -264,6 +270,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Dadong.LoginProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -286,6 +293,7 @@
 				5318540E1F08DEE300012375 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
