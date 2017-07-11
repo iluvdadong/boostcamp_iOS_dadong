@@ -6,9 +6,9 @@
 
 > 실습과제
 
-* - [x] [Start Developing iOS Apps (Swift)](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html)의 Define Your Data Model 파트까지 읽어오기 [(완료영상)](video/week2_foodtracker.mov)
+* - [x] ~~~[Start Developing iOS Apps (Swift)](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html)의 Define Your Data Model 파트까지 읽어오기 [(완료영상)](video/week2_foodtracker.mov)~~~
 
-*  - [x] 교재 4~6장 문제 해결해보기 [(완료영상)](video/WorldTrotter_chp6.mov)
+*  - [x] ~~~교재 4~6장 문제 해결해보기 [(완료영상)](video/WorldTrotter_chp6.mov)~~~
 	* ~~~4장 : 텍스트 입력과 델리게이션~~~
 	* ~~~5장 : 뷰 컨트롤러~~~
 	* ~~~6장 : 프로그래밍으로 뷰 만들기~~~
@@ -35,14 +35,14 @@
 
 * - [x] [iOS Technology Overview](https://developer.apple.com/library/content/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Introduction/Introduction.html) 문서 훑어보기
 
-* - [ ] [Cocoa Fundamentals Guide 문서](reading/cocoa_fundamentals.pdf)의 아래 챕터 읽어오기
+* - [ ] [Cocoa Fundamentals Guide 문서](reading/cocoa_fundamentals.pdf)의 아래 챕터 읽어오기 (진행중)
 	* How Cocoa Fits into iOS
 	* Foundation 
 	* UIKit (iOS) 
 
-* - [ ] [스위프트 읽어오기 과제](reading/ios_reading_assignment_swift_2.pdf) - 두 번째 읽어오기 과제
+* - [ ] [스위프트 읽어오기 과제](reading/ios_reading_assignment_swift_2.pdf) - 두 번째 읽어오기 과제 (진행중)
 
-* - [ ] [iOS 프로그래밍 가이드 읽어오기 과제](reading/ios_reading_assignment_prog_guide_1.pdf) - 첫 번째 읽어오기 과제
+* - [ ] [iOS 프로그래밍 가이드 읽어오기 과제](reading/ios_reading_assignment_prog_guide_1.pdf) - 첫 번째 읽어오기 과제 (진행중)
 
 
 
