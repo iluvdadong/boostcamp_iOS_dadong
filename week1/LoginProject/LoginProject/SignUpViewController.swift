@@ -8,13 +8,14 @@
 
 import UIKit
 
-class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextViewDelegate {
 
     //MARK: Profile
     @IBOutlet weak var profileImageView: UIImageView!
     @IBOutlet weak var idTextField: UITextField!
     @IBOutlet weak var pswTextField: UITextField!
     @IBOutlet weak var pswcheckTextField: UITextField!
+    @IBOutlet weak var textView: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +26,10 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
         idTextField.delegate = self
         pswTextField.delegate = self
         pswcheckTextField.delegate = self
+        textView.delegate = self
+        
+        textView.text = "자기소개를 입력하세요 :)"
+        textView.textColor = UIColor.lightGray
 
         // Do any additional setup after loading the view.
     }
@@ -80,6 +85,22 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
         
         dismiss(animated: true, completion: nil)
     }
+    
+    func textViewDidBeginEditing(_ textView: UITextView) {
+        
+        if textView.textColor == UIColor.lightGray {
+            textView.text = nil
+            textView.textColor = UIColor.black
+        }
+    }
+    
+    func textViewDidEndEditing(_ textView: UITextView) {
+        if textView.text.isEmpty {
+            textView.text = "Placeholder"
+            textView.textColor = UIColor.lightGray
+        }
+    }
+    
 
     
 }
