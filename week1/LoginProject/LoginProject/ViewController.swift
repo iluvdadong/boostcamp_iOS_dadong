@@ -44,9 +44,7 @@ class ViewController: UIViewController {
    
     }
     
-    open func dismissKeyboard() {
-        view.endEditing(true)
-    }
+
     
     
 }
