@@ -57,6 +57,9 @@ class ItemsViewController: UITableViewController {
         let insets = UIEdgeInsets(top: statusBarHeight, left: 0, bottom: 0, right: 0)
         tableView.contentInset = insets
         tableView.scrollIndicatorInsets = insets
+        
+        tableView.rowHeight = 65
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -83,12 +86,18 @@ class ItemsViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
       
-        let cell = tableView.dequeueReusableCell(withIdentifier: "UITableViewCell", for: indexPath)
+        //재사용이나 새로운 셀을 얻는다
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ItemCell", for: indexPath) as! ItemCell
         
+        
+        // 물품 배열의 n번째에 있는 항목의 설명을 n과 row와 일치하는 셀의 텍스트로 설정한다
+        // 이 셀은 테이블 뷰의 n번째 행에 나타난다
         let item = itemStore.allItems[indexPath.row]
-        
-        cell.textLabel?.text = item.name
-        cell.detailTextLabel?.text = "$\(item.valuesInDollars)"
+ 
+        // Item을 가지고 셀을 설정한다.
+        cell.nameLabel.text = item.name
+        cell.serialNunberLabel.text = item.serialNumber
+        cell.valueLabel.text = "$\(item.valuesInDollars)"
         
         return cell
         
