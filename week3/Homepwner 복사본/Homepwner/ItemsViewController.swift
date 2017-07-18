@@ -11,7 +11,6 @@ import UIKit
 class ItemsViewController: UITableViewController {
     
     var itemStore: ItemStore!
-    
     var names = ["ra", "re", "fadf", "fadf", "fadfdS"]
     
     override func viewDidLoad() {
@@ -19,7 +18,6 @@ class ItemsViewController: UITableViewController {
 
         //Get the height of the status storyboard
         let statusBarHeight = UIApplication.shared.statusBarFrame.height
-        
         let insets = UIEdgeInsets(top: statusBarHeight, left: 0, bottom: 0, right: 0)
         tableView.contentInset = insets
         tableView.scrollIndicatorInsets = insets
@@ -47,7 +45,7 @@ class ItemsViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-     
+        
         if section == 0 {
             return "50달러 이상"
         } else {
@@ -55,10 +53,12 @@ class ItemsViewController: UITableViewController {
         }
     }
     
+    //이거 어떻게 돌아가나요? 메모리가 어떤식으로 재사용되는 구조인지 이해가 안간다.
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
+        print(indexPath.section)
+        print(indexPath.row)
         let cell = tableView.dequeueReusableCell(withIdentifier: "UITableViewCell", for: indexPath)
-        
         let item: Item
         
         if indexPath.section == 0 {
