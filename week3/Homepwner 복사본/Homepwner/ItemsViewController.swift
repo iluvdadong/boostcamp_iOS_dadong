@@ -13,6 +13,45 @@ class ItemsViewController: UITableViewController {
     var itemStore: ItemStore!
     var names = ["ra", "re", "fadf", "fadf", "fadfdS"]
     
+    
+    @IBAction func addNewItem(_ sender: UIButton) {
+    
+        // Create a new item and add it to the store
+        let newItem = itemStore.createItem()
+        
+        // Figure out where that item is in the array
+        if let index = itemStore.allItems.index(of: newItem) {
+            let indexPath = IndexPath(row: Index, section: 0)
+            
+            //Insert this new row into the table
+            tableView.insertRows(at: <#T##[IndexPath]#>, with: .automatic)
+        }
+    
+    }
+    
+    @IBAction func toggleEditingMode(_ sender: UIButton) {
+    
+        //  현재 편집 모드이면
+        if isEditing {
+        
+            // change text of button to inform user of state
+            sender.setTitle("Edit", for: .normal)
+            
+            // Turn off editing mode
+            setEditing(false, animated: true)
+        } else {
+        
+            //Change text of button to inform user of state
+            sender.setTitle("Done", for:.normal)
+            
+            //Enter editing mode
+            setEditing(true, animated: true)
+        }
+    
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
