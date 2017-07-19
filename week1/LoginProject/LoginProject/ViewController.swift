@@ -12,12 +12,15 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var idTextField: UITextField!
     @IBOutlet weak var pwTextField: UITextField!
+    @IBOutlet weak var MyLoginBtn: MyButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     
         initTapGesture()
+        
+        MyLoginBtn.textAlignment = .center
     }
 
     fileprivate func initTapGesture() {
@@ -34,18 +37,12 @@ class ViewController: UIViewController {
         dismissKeyboard()
     }
     
-    
     @IBAction func signupAction(_ sender: AnyObject) {
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "SignUpViewController")
         self.present(controller, animated: true, completion: nil)
-    
-   
     }
-    
-
-    
     
 }
 

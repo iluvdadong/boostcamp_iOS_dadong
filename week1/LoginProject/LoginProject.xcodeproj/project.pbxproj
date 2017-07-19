@@ -13,6 +13,7 @@
 		531854051F08DEE200012375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531854041F08DEE200012375 /* Assets.xcassets */; };
 		531854081F08DEE300012375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531854061F08DEE300012375 /* LaunchScreen.storyboard */; };
 		D44909141F14FBAB00AE73C8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44909131F14FBAB00AE73C8 /* SignUpViewController.swift */; };
+		D4DB9EE21F1F1DEE00CFEF26 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DB9EE11F1F1DEE00CFEF26 /* MyButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		531854071F08DEE300012375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		531854091F08DEE300012375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D44909131F14FBAB00AE73C8 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D4DB9EE11F1F1DEE00CFEF26 /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 		531853FC1F08DEE200012375 /* LoginProject */ = {
 			isa = PBXGroup;
 			children = (
-				531853FD1F08DEE200012375 /* AppDelegate.swift */,
-				531853FF1F08DEE200012375 /* ViewController.swift */,
 				531854011F08DEE200012375 /* Main.storyboard */,
+				531853FF1F08DEE200012375 /* ViewController.swift */,
 				D44909131F14FBAB00AE73C8 /* SignUpViewController.swift */,
+				D4DB9EE11F1F1DEE00CFEF26 /* MyButton.swift */,
+				531853FD1F08DEE200012375 /* AppDelegate.swift */,
 				531854041F08DEE200012375 /* Assets.xcassets */,
 				531854061F08DEE300012375 /* LaunchScreen.storyboard */,
 				531854091F08DEE300012375 /* Info.plist */,
@@ -142,6 +145,7 @@
 				D44909141F14FBAB00AE73C8 /* SignUpViewController.swift in Sources */,
 				531854001F08DEE200012375 /* ViewController.swift in Sources */,
 				531853FE1F08DEE200012375 /* AppDelegate.swift in Sources */,
+				D4DB9EE21F1F1DEE00CFEF26 /* MyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
