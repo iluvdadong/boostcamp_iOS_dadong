@@ -2,7 +2,7 @@
 
 ## 개인과제
 
-* ~~~교재 9~11장 문제 해결해보기~~~
+* ~~~교재 9-11장 문제 해결해보기~~~
 	* 9장 : UITableView와 UITableViewController
 	* 10장 : UITableView 편집하기
 	* 11장 : UITableViewCell 하위 클래스 만들기
@@ -12,7 +12,7 @@
 * 생각과제
 	* 코딩 컨벤션은 왜 중요할까?
 
-~~~* 프로젝트 과제~~~
-		* UIView를 상속받아 버튼 만들어보기
-		* [상세 설명 문서](project_description/MyButton.md) 참고
-		* 스스로 만든 버튼을 로그인, 회원가입 화면에 적용해보기
+* ~~~프로젝트 과제~~~
+	* UIView를 상속받아 버튼 만들어보기
+	* [상세 설명 문서](project_description/MyButton.md) 참고
+	* 스스로 만든 버튼을 로그인, 회원가입 화면에 적용해보기
