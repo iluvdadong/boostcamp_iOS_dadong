@@ -3,7 +3,7 @@
 ## 개인과제
 
 * ~~~교재 9~11장 문제 해결해보기~~~
-		* 9장 : UITableView와 UITableViewController~~~
+		* 9장 : UITableView와 UITableViewController
 		* 10장 : UITableView 편집하기
 		* 11장 : UITableViewCell 하위 클래스 만들기
 
