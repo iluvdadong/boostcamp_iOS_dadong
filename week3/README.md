@@ -9,8 +9,9 @@
 
 * [스위프트 읽어오기 과제](reading/ios_reading_assignment_swift_3.pdf) - 세 번째 읽어오기 과제 (진행중) 
 
-* 생각과제
+* ~~~생각과제~~~
 	* 코딩 컨벤션은 왜 중요할까?
+		* 원활한 협업을 위해서
 
 * ~~~프로젝트 과제~~~ [완료](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week1/LoginProject)
 	* [x] UIView를 상속받아 버튼 만들어보기
