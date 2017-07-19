@@ -9,6 +9,7 @@
 > 과제분류
 * [week1](week1/README.md)
 * [week2](week2/README.md)
+* [week3](week3/README.md)
 
 
 
