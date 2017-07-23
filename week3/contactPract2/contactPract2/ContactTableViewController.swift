@@ -1,53 +1,66 @@
 //
 //  ContactTableViewController.swift
-//  Contact_practice
+//  contactPract2
 //
-//  Created by dadong on 2017. 7. 19..
+//  Created by dadong on 2017. 7. 20..
 //  Copyright © 2017년 dadong. All rights reserved.
 //
 
 import UIKit
 
 class ContactTableViewController: UITableViewController {
-    
-    //Contact : 클래스이름, contacts : 객체의 배열
-    var contacts: [Contact] = [Contact]()
+
+    //객체 배열을 만듬
+    var contactArray: [ContactInfo] = [ContactInfo]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        for _ in 0..<10{
         
-        for _ in 0..<5 {
-            let ddd = Contact(name: "dadong", number: "0103213")
-             contacts.append(ddd)
+            let tempContact = ContactInfo(random: true)
+        contactArray.append(tempContact)
         }
         
-        print(contacts.count)
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
 
     // MARK: - Table view data source
 
-//    override func numberOfSections(in tableView: UITableView) -> Int {
-//        // #warning Incomplete implementation, return the number of sections
-//        return 1
-//    }
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        // #warning Incomplete implementation, return the number of sections
+        return 1
+    }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return contacts.count
+        return contactArray.count
     }
-    
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         let cell = UITableViewCell(style: .value1, reuseIdentifier: "UITableViewCell")
-        let ddd = contacts[indexPath.row]
+        let cellContact = contactArray[indexPath.row]
         
-        cell.textLabel?.text = ddd.name
-        cell.detailTextLabel?.text = ddd.number
+        cell.textLabel?.text = cellContact.name
+        cell.detailTextLabel?.text = cellContact.number
         
+        
+        return cell
+        
+    }
+    /*
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+
         // Configure the cell...
 
         return cell
     }
+    */
 
     /*
     // Override to support conditional editing of the table view.
