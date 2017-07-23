@@ -4,7 +4,7 @@
 
 * 교재 8, 13, 17장 문제 해결해보기 
 	* ~~~8장 : 애니메이션 제어~~~  [완료](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week1/Quiz) (Next Question 라벨이 사라지는 문제 해결해야함)
-	* 13장 : UINavigationController
+	* 13장 : UINavigationController (+12장)
 	* 17장 : 터치 이벤트와 UIResponder
 	
 * 프로젝트 과제
