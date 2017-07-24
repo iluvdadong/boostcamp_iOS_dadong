@@ -5,9 +5,9 @@
 * 교재 8, 13, 17장 문제 해결해보기 
 	* ~~~8장 : 애니메이션 제어~~~  [완료](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week1/Quiz) (Next Question 라벨이 사라지는 문제 해결해야함)
 	* ~~~13장 : UINavigationController (+12장)~~~ [완료](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week3/Homepwner)
-	* 17장 : 터치 이벤트와 UIResponder (화-오후~)
+	* 17장 : 터치 이벤트와 UIResponder (화-오전)
 	
-* 프로젝트 과제 (화-저녁)
+* 프로젝트 과제 (화-)
 	* 1 to 25 게임 만들어보기 
 		* [상세 설명 문서](project_description/OneToTwentyFive.md) 참고
 	
