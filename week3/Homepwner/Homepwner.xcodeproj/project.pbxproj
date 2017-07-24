@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D42F73491F1E20C200A6749C /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F73481F1E20C200A6749C /* ItemCell.swift */; };
+		D434C8BB1F25C3290085BCD0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434C8BA1F25C3290085BCD0 /* DetailViewController.swift */; };
 		D4383B221F1B525B00B587DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4383B211F1B525B00B587DB /* AppDelegate.swift */; };
 		D4383B271F1B525B00B587DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4383B251F1B525B00B587DB /* Main.storyboard */; };
 		D4383B291F1B525B00B587DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4383B281F1B525B00B587DB /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		D42F73481F1E20C200A6749C /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemCell.swift; path = ../ItemCell.swift; sourceTree = "<group>"; };
+		D434C8BA1F25C3290085BCD0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D4383B1E1F1B525B00B587DB /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4383B211F1B525B00B587DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4383B261F1B525B00B587DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		D4534F951F1C38FB00B8CF55 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				D434C8BA1F25C3290085BCD0 /* DetailViewController.swift */,
 				D4534F921F1C359C00B8CF55 /* ItemsViewController.swift */,
 			);
 			name = ViewController;
@@ -164,6 +167,7 @@
 				D4383B221F1B525B00B587DB /* AppDelegate.swift in Sources */,
 				D4534F971F1C391600B8CF55 /* Item.swift in Sources */,
 				D4534F991F1C727000B8CF55 /* ItemStore.swift in Sources */,
+				D434C8BB1F25C3290085BCD0 /* DetailViewController.swift in Sources */,
 				D4534F931F1C359C00B8CF55 /* ItemsViewController.swift in Sources */,
 				D42F73491F1E20C200A6749C /* ItemCell.swift in Sources */,
 			);

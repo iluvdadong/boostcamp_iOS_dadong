@@ -11,9 +11,8 @@ import UIKit
 class ItemsViewController: UITableViewController {
     
     var itemStore: ItemStore!
-    var names = ["ra", "re", "fadf", "fadf", "fadfdS"]
     
-    @IBAction func addNewItem(_ sender: UIButton) {
+    @IBAction func addNewItem(_ sender: UIBarButtonItem) {
         
         // Create a new item and add it to the store
         let newItem = itemStore.createItem()
@@ -22,7 +21,6 @@ class ItemsViewController: UITableViewController {
         if let index = itemStore.allItems.index(of: newItem) {
             let indexPath = IndexPath(row: index, section: 0)
             
-    
             //insert this new row intto the table
             tableView.insertRows(at: [indexPath], with: .automatic)
         }
@@ -60,6 +58,13 @@ class ItemsViewController: UITableViewController {
         
         tableView.rowHeight = 65
         
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        tableView.reloadData()
     }
 
     override func didReceiveMemoryWarning() {
@@ -96,7 +101,7 @@ class ItemsViewController: UITableViewController {
  
         // Item을 가지고 셀을 설정한다.
         cell.nameLabel.text = item.name
-        cell.serialNunberLabel.text = item.serialNumber
+        cell.serialNumberLabel.text = item.serialNumber
         cell.valueLabel.text = "$\(item.valuesInDollars)"
         
         return cell
@@ -137,6 +142,25 @@ class ItemsViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
         //update the model
         itemStore.moveItem(From: sourceIndexPath.row, to: destinationIndexPath.row)
+    }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    
+        // 발생한 세그웨이가 "ShowItem" 세그웨이면
+        switch segue.identifier {
+        case "showItem"?:
+            //방금 어느 행이 눌렸는지 계산한다
+            if let row = tableView.indexPathForSelectedRow?.row {
+            
+                // get the item asscociated with this row and pass it along
+                let item = itemStore.allItems[row]
+                let detailViewController = segue.destination as! DetailViewController
+                detailViewController.item = item
+            }
+        default:
+            preconditionFailure("Unexpected segue identifier.")
+        }
     }
     
 

@@ -11,14 +11,14 @@ import UIKit
 class ItemCell: UITableViewCell {
 
     @IBOutlet var nameLabel: UILabel!
-    @IBOutlet var serialNunberLabel: UILabel!
+    @IBOutlet var serialNumberLabel: UILabel!
     @IBOutlet var valueLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         
         nameLabel.adjustsFontForContentSizeCategory = true
-        serialNunberLabel.adjustsFontForContentSizeCategory = true
+        serialNumberLabel.adjustsFontForContentSizeCategory = true
         valueLabel.adjustsFontForContentSizeCategory = true
     }
     

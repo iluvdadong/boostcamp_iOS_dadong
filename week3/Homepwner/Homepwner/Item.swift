@@ -16,15 +16,15 @@ class Item: NSObject {
     
     init(name: String, valueInDollars: Int, serialNumber: String?) {
         self.name = name
-        self.valuesInDollars = valueInDollars
         self.serialNumber = serialNumber
+        self.valuesInDollars = valueInDollars
         self.dateCreated = Date()
         
         super.init()
     }
     
     convenience init(random: Bool = false) {
-    
+        
         if random {
             let adjectives = ["Fluffy", "Rusty", "Shiny"]
             let nouns = ["Bear", "Spork", "Mac"]
@@ -43,8 +43,8 @@ class Item: NSObject {
         } else {
             self.init(name: "", valueInDollars: 0, serialNumber: nil)
         }
-    
-    
+        
+        
     }
     
 }
