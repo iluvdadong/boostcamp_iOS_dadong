@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D40E15131F2874D5005F868A /* RandomNumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E15121F2874D5005F868A /* RandomNumberGenerator.swift */; };
+		D40E15151F2885CE005F868A /* RecordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E15141F2885CE005F868A /* RecordManager.swift */; };
 		D4D522791F2718C4001F8007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D522781F2718C4001F8007 /* AppDelegate.swift */; };
-		D4D5227B1F2718C4001F8007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5227A1F2718C4001F8007 /* ViewController.swift */; };
 		D4D5227E1F2718C4001F8007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D5227C1F2718C4001F8007 /* Main.storyboard */; };
 		D4D522801F2718C4001F8007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D5227F1F2718C4001F8007 /* Assets.xcassets */; };
 		D4D522831F2718C4001F8007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D522811F2718C4001F8007 /* LaunchScreen.storyboard */; };
@@ -17,9 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D40E15121F2874D5005F868A /* RandomNumberGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomNumberGenerator.swift; sourceTree = "<group>"; };
+		D40E15141F2885CE005F868A /* RecordManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordManager.swift; sourceTree = "<group>"; };
 		D4D522751F2718C4001F8007 /* NumberTouchGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberTouchGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D522781F2718C4001F8007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4D5227A1F2718C4001F8007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D4D5227D1F2718C4001F8007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4D5227F1F2718C4001F8007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4D522821F2718C4001F8007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,6 +41,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D40E150F1F287476005F868A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D40E15101F28748F005F868A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D40E15141F2885CE005F868A /* RecordManager.swift */,
+				D40E15121F2874D5005F868A /* RandomNumberGenerator.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D40E15111F287496005F868A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D4D5228C1F271F26001F8007 /* PlayViewController.swift */,
+				D4D5228A1F27192B001F8007 /* HomeViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		D4D5226C1F2718C4001F8007 = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +85,11 @@
 		D4D522771F2718C4001F8007 /* NumberTouchGame */ = {
 			isa = PBXGroup;
 			children = (
+				D40E15111F287496005F868A /* Controller */,
+				D40E15101F28748F005F868A /* Model */,
+				D40E150F1F287476005F868A /* View */,
 				D4D522781F2718C4001F8007 /* AppDelegate.swift */,
-				D4D5227A1F2718C4001F8007 /* ViewController.swift */,
 				D4D5227C1F2718C4001F8007 /* Main.storyboard */,
-				D4D5228C1F271F26001F8007 /* PlayViewController.swift */,
-				D4D5228A1F27192B001F8007 /* HomeViewController.swift */,
 				D4D5227F1F2718C4001F8007 /* Assets.xcassets */,
 				D4D522811F2718C4001F8007 /* LaunchScreen.storyboard */,
 				D4D522841F2718C4001F8007 /* Info.plist */,
@@ -143,9 +170,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4D5228D1F271F26001F8007 /* PlayViewController.swift in Sources */,
-				D4D5227B1F2718C4001F8007 /* ViewController.swift in Sources */,
 				D4D522791F2718C4001F8007 /* AppDelegate.swift in Sources */,
 				D4D5228B1F27192B001F8007 /* HomeViewController.swift in Sources */,
+				D40E15151F2885CE005F868A /* RecordManager.swift in Sources */,
+				D40E15131F2874D5005F868A /* RandomNumberGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +335,7 @@
 				D4D522891F2718C4001F8007 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
