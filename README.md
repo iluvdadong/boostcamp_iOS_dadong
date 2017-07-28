@@ -11,5 +11,7 @@
 * [week2](week2/README.md)
 * [week3](week3/README.md)
 * [week4](week4/README.md)
+* [week5](week5/README.md)
+
 
 
