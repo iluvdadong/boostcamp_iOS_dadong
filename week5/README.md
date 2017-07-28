@@ -3,7 +3,7 @@
 ## 개인과제
 
 * 교재 15, 19, 20장 문제 해결해보기 
-	* ~~~15장 : 저장하기, 불러오기, 앱 상태 (금)~~~
+	* ~~~15장 : 저장하기, 불러오기, 앱 상태 (금)~~~ [바로가기](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week3/Homepwner)
 	* 19장 : Web Services (월)
 	* 20장 : 컬렉션 뷰 (월)
 
