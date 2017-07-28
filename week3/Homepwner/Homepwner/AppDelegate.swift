@@ -13,12 +13,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    let itemStore = ItemStore()
 
+    //홈버튼을 누르면 백그라운드에 들어간다는 메세지를 받음. 이시점이 ItemStored에 saveChanges를 보낼 때임
+    func applicationDidEnterBackground(_application: UIApplication) {
+        let success = itemStore.saveChanges()
+        if (success) {
+            print("Save all of the Items")
+        } else {
+            print("Could not save any of the Items")
+        }
+    
+    }
+    
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-       
-        //Create an ItemSotre
-        let itemStore = ItemStore()
+    
         
         //Access the ItemsViewController and set its item store
         let navController = window!.rootViewController as! UINavigationController

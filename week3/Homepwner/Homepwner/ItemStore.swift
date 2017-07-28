@@ -11,6 +11,20 @@ import UIKit
 class ItemStore {
 
     var allItems = [Item]()
+    let itemArchiveURL: URL = {
+        let documentsDirectories =
+        FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+        let documentDirectory = documentsDirectories.first!
+       return documentDirectory.appendingPathComponent("items.archive")
+        
+    
+    } ()
+    
+    init() {
+        if let archivedItems = NSKeyedUnarchiver.unarchiveObject(withFile: itemArchiveURL.path) as? [item] //휴 ㅠㅠ
+        allItems = archivedItems
+    }
+    
     
     @discardableResult func createItem() -> Item {
         
@@ -20,6 +34,8 @@ class ItemStore {
         
         return newItem
     }
+    
+
     
     func removeItem(_ item: Item) {
     
@@ -44,6 +60,13 @@ class ItemStore {
         allItems.insert(movedItem, at: toIndex)
     }
     
+    // 앱을 종료할 때 Item인스턴스를 저장하도록 NSKeyedArchiver클래스를 사용
+    func saveChanges() -> Bool {
+        print("Saving items to: \(itemArchiveURL.path )")
+        return NSKeyedArchiver.archiveRootObject(allItems, toFile: itemArchiveURL.path)
+    
+    }
+  
 }
 
 
