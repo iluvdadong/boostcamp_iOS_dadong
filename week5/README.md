@@ -5,7 +5,7 @@
 * 교재 15, 19, 20장 문제 해결해보기 
 	* ~~~15장 : 저장하기, 불러오기, 앱 상태 (금)~~~ [바로가기](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week3/Homepwner)
 	* ~~~~19장 : Web Services (월)~~~ [바로가기](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week5/Phtorama)
-	* 20장 : 컬렉션 뷰 (월)
+	* ~~~20장 : 컬렉션 뷰 (월)~~~ [바로가기](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week5/Phtorama)
 
 * 프로젝트 과제 (화)
 	* 주어진 API 서버를 사용하여 사진 게시판 애플리케이션을 만들어보기 
