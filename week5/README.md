@@ -7,7 +7,7 @@
 	* ~~~~19장 : Web Services (월)~~~ [바로가기](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week5/Phtorama)
 	* ~~~20장 : 컬렉션 뷰 (월)~~~ [바로가기](https://github.com/iluvdadong/boostcamp_iOS_dadong/tree/master/week5/Phtorama)
 
-* 프로젝트 과제 (화)
+* ~~~프로젝트 과제 (화)~~~ (진행중)
 	* 주어진 API 서버를 사용하여 사진 게시판 애플리케이션을 만들어보기 
 	* [상세 설명 문서](project_description/ImageBoard.md) 참고
   
