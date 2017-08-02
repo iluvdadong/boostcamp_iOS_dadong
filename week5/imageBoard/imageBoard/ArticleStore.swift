@@ -51,7 +51,7 @@ class ArticleStore {
         request.httpMethod = HttpMethod.post.rawValue
         
         let boundary = "Boundary-\(UUID().uuidString)"
-        request.setValue("multipart/form-data; boundary-\(boundary)", forHTTPHeaderField: "Content-Type")
+        request.setValue("multipart/form-data; boundary=\(boundary)", forHTTPHeaderField: "Content-Type")
         
         let params: [String:String] = ["image_title":imgTitle,
                                        "image_desc":imgDesc]
